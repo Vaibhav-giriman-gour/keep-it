@@ -56,34 +56,63 @@ The project follows a modular and well-organized structure, enhancing maintainab
 
 Keep-It/
 ├── public/                 # Public assets (e.g., index.html)
+
 ├── src/                    # Source code
+
 │   ├── assets/             # Static assets (images, fonts)
+
 │   ├── components/         # Reusable UI components
+
 │   │   ├── Animation.jsx
+
 │   │   ├── CreateArea.jsx
+
 │   │   ├── Footer.jsx
+
 │   │   ├── Header.jsx
+
 │   │   ├── Note.jsx
+
 │   │   ├── NoteGrid.jsx
+
 │   │   └── notes.js        # Likely data or utility for notes
+
 │   ├── pages/              # Page-level components
+
 │   ├── redux/              # Redux store and slices
+
 │   │   ├── notesSlice.jsx  # Redux slice for notes state
+
 │   │   └── store.js        # Redux store configuration
+
 │   ├── App.css
+
 │   ├── App.jsx             # Main application component
+
 │   ├── firebaseInit.js     # Firebase initialization (reads from .env)
+
 │   ├── index.css
+
 │   └── main.jsx            # Entry point of the React application
+
 ├── .env                    # Environment variables (IGNORED by Git)
+
 ├── .gitignore              # Specifies intentionally untracked files to ignore
+
 ├── eslint.config.js        # ESLint configuration for code quality
+
 ├── index.html              # Main HTML file
+
 ├── package-lock.json       # Dependency tree lock file
+
 ├── package.json            # Project metadata and dependencies
+
 ├── postcss.config.js       # PostCSS configuration
+
 ├── README.md               # This README file
+
 ├── tailwind.config.js      # Tailwind CSS configuration
+
 └── vite.config.js          # Vite build tool configuration
 
 
